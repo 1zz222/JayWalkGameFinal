@@ -1,0 +1,74 @@
+[gd_scene load_steps=4 format=3 uid="uid://c25mn58t65p3n"]
+
+[ext_resource type="Texture2D" uid="uid://va36aull04fu" path="res://graphics/mainmenu.png" id="2_ekxnf"]
+[ext_resource type="FontFile" uid="uid://duh06vgim15ja" path="res://fonts/Pixelout Personal Use Only.ttf" id="3_bqqt6"]
+[ext_resource type="Script" uid="uid://dx72x4ce7ujkl" path="res://scenes/main_menu.gd" id="19_hstxw"]
+
+[node name="Node2D" type="Node2D"]
+position = Vector2(498, 381)
+
+[node name="MainMenu" type="Control" parent="."]
+layout_mode = 3
+anchors_preset = 0
+offset_right = 40.0
+offset_bottom = 40.0
+script = ExtResource("19_hstxw")
+
+[node name="TextureRect" type="TextureRect" parent="MainMenu"]
+layout_mode = 1
+anchors_preset = 15
+anchor_right = 1.0
+anchor_bottom = 1.0
+offset_left = -493.0
+offset_top = -378.0
+offset_right = 615.0
+offset_bottom = 237.0
+grow_horizontal = 2
+grow_vertical = 2
+mouse_filter = 2
+texture = ExtResource("2_ekxnf")
+stretch_mode = 6
+
+[node name="Label" type="Label" parent="MainMenu"]
+layout_mode = 0
+offset_right = 40.0
+offset_bottom = 23.0
+
+[node name="Label" type="Label" parent="MainMenu/Label"]
+layout_mode = 1
+anchors_preset = -1
+anchor_left = 0.5
+anchor_top = 0.5
+anchor_right = 0.5
+anchor_bottom = 0.5
+offset_left = -179.0
+offset_top = -301.5
+offset_right = 322.0
+offset_bottom = -201.5
+grow_horizontal = 2
+grow_vertical = 2
+theme_override_colors/font_shadow_color = Color(0.24313726, 0, 0.93333334, 1)
+theme_override_constants/shadow_offset_y = 11
+theme_override_fonts/font = ExtResource("3_bqqt6")
+theme_override_font_sizes/font_size = 100
+text = "JAY WALK"
+
+[node name="VBoxContainer" type="VBoxContainer" parent="MainMenu"]
+layout_mode = 0
+offset_left = -13.315
+offset_top = -153.36
+offset_right = 156.685
+offset_bottom = -39.36
+
+[node name="StartButton" type="Button" parent="MainMenu/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 40
+text = "Play"
+
+[node name="QuitButton" type="Button" parent="MainMenu/VBoxContainer"]
+layout_mode = 2
+theme_override_font_sizes/font_size = 28
+text = "Quit"
+
+[connection signal="pressed" from="MainMenu/VBoxContainer/StartButton" to="MainMenu" method="_on_start_button_pressed"]
+[connection signal="pressed" from="MainMenu/VBoxContainer/QuitButton" to="MainMenu" method="_on_quit_button_pressed"]

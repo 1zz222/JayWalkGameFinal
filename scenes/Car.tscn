@@ -1,0 +1,41 @@
+[gd_scene load_steps=9 format=3 uid="uid://dukv3loanb5d7"]
+
+[ext_resource type="Texture2D" uid="uid://ded8huv3lr1a7" path="res://graphics/cars/yellow.png" id="1_gf172"]
+[ext_resource type="Script" uid="uid://cd5xhsevs1vit" path="res://scenes/car.gd" id="1_ys5ts"]
+[ext_resource type="AudioStream" uid="uid://bltpvqao25x1o" path="res://audio/tanweraman-car-pass-by-337871.mp3" id="3_qn377"]
+[ext_resource type="AudioStream" uid="uid://ltov35wcmnrq" path="res://audio/km007-car-pass-by-9111.mp3" id="3_vaoqk"]
+[ext_resource type="AudioStream" uid="uid://h5b6brejantc" path="res://audio/spinopel-passing-car-393073.mp3" id="5_v7lie"]
+[ext_resource type="AudioStream" uid="uid://drskhx8r2bfb2" path="res://audio/dragon-studio-car-honk-386166.mp3" id="6_bfku0"]
+
+[sub_resource type="RectangleShape2D" id="RectangleShape2D_dl81w"]
+size = Vector2(20, 16)
+
+[sub_resource type="AudioStreamRandomizer" id="AudioStreamRandomizer_i5sjj"]
+random_pitch = 1.2
+random_volume_offset_db = 0.81
+streams_count = 4
+stream_0/stream = ExtResource("3_vaoqk")
+stream_1/stream = ExtResource("3_qn377")
+stream_2/stream = ExtResource("5_v7lie")
+stream_3/stream = ExtResource("6_bfku0")
+
+[node name="Car" type="Area2D"]
+collision_layer = 4
+collision_mask = 2
+script = ExtResource("1_ys5ts")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+texture = ExtResource("1_gf172")
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+shape = SubResource("RectangleShape2D_dl81w")
+
+[node name="VisibleOnScreenNotifier2D" type="VisibleOnScreenNotifier2D" parent="."]
+
+[node name="AudioStreamPlayer2D" type="AudioStreamPlayer2D" parent="."]
+stream = SubResource("AudioStreamRandomizer_i5sjj")
+volume_db = -14.019
+autoplay = true
+max_distance = 440.0
+
+[connection signal="screen_exited" from="VisibleOnScreenNotifier2D" to="." method="_on_visible_on_screen_notifier_2d_screen_exited"]

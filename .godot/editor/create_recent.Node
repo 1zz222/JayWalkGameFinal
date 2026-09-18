@@ -1,0 +1,10 @@
+Button
+VBoxContainer
+Label
+TextureRect
+Control
+ResourcePreloader
+Label      - Matches the "text" keyword.
+AudioStreamPlayer2D
+AudioStreamPlayer
+CollisionShape2D
