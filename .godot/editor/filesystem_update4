@@ -1,0 +1,5 @@
+res://scenes/game.gd
+res://scenes/game.tscn
+res://scenes/Title.tscn
+res://scenes/title.gd
+res://scenes/main_menu.tscn

@@ -112,3 +112,15 @@ theme_override_colors/font_shadow_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_2sdm5")
 text = "SPACEBAR to restart!
 "
+
+[node name="MainMenuButton" type="Button" parent="."]
+layout_mode = 0
+offset_left = 499.0
+offset_top = 547.0
+offset_right = 662.0
+offset_bottom = 598.0
+theme_override_fonts/font = ExtResource("3_2sdm5")
+theme_override_font_sizes/font_size = 20
+text = "Main Menu"
+
+[connection signal="pressed" from="MainMenuButton" to="." method="_on_main_menu_button_pressed"]
