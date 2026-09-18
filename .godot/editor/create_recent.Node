@@ -1,8 +1,9 @@
 Button
-VBoxContainer
 Label
-TextureRect
+VBoxContainer
+ColorRect
 Control
+TextureRect
 ResourcePreloader
 Label      - Matches the "text" keyword.
 AudioStreamPlayer2D

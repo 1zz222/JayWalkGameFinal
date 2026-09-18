@@ -1,9 +1,9 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1789766979
+::res://::1789767371
 asset sources.txt::TextFile::-1::1789766871::0::1::::<><><>0<>0<><>::
 export_presets.cfg::TextFile::-1::1789766927::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::5991746675164270125::1788615118::1789382890::1::::<><><>0<>0<>b524d7562d655860d6e95c77f9f4f098<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
-README.md::TextFile::-1::1789766811::0::1::::<><><>0<>0<><>::
+README.md::TextFile::-1::1789767076::0::1::::<><><>0<>0<><>::
 ::res://audio/::1789765767
 dragon-studio-car-honk-386166.mp3::AudioStreamMP3::8390252122808056041::1789585239::1789585333::1::::<><><>0<>0<>11efa1e141c8e9c04f1dfa716d7c67be<>res://.godot/imported/dragon-studio-car-honk-386166.mp3-87f53a25f15b6eaf2e4eee3e9b2c87b7.mp3str::
 jaywalkgameOST.mp3::AudioStreamMP3::5471984230377659505::1789584293::1789584835::1::::<><><>0<>0<>bfa2bd5cc7339e572dabfa3c9f830353<>res://.godot/imported/jaywalkgameOST.mp3-a703d0f7a142677bc7bc4efb7abce96d.mp3str::
@@ -50,12 +50,12 @@ tree potted.png::CompressedTexture2D::3389544860567921485::1789418006::178941985
 ::res://graphics/player/::1789765767
 player_simple.png::CompressedTexture2D::3101742799475853270::1789417056::1789417059::1::::<><><>0<>0<>1c5e0eae2902f400d93138ed015c3d2b<>res://.godot/imported/player_simple.png-da0d067e94fb2205dce5f6ce7ba473b7.ctex::
 player_tileset.png::CompressedTexture2D::6843235375669234817::1789417048::1789417059::1::::<><><>0<>0<>21c29d67251e95d2bb7dfe9729d2bb88<>res://.godot/imported/player_tileset.png-4ca3aae43be08322f35644f77e38bfeb.ctex::
-::res://scenes/::1789765767
+::res://scenes/::1789767023
 box.tscn::PackedScene::7079896307954955148::1788615118::0::1::::<><><>0<>0<><>::uid://y78osdw0bolc::::res://graphics/objects/box1.png
 car.gd::GDScript::5046749174891820167::1789408245::0::1::::<>Area2D<><>0<>0<><>::
 Car.tscn::PackedScene::8585008359859541334::1789591233::0::1::::<><><>0<>0<><>::uid://ded8huv3lr1a7::::res://graphics/cars/yellow.png<>uid://cd5xhsevs1vit::::res://scenes/car.gd<>uid://bltpvqao25x1o::::res://audio/tanweraman-car-pass-by-337871.mp3<>uid://ltov35wcmnrq::::res://audio/km007-car-pass-by-9111.mp3<>uid://h5b6brejantc::::res://audio/spinopel-passing-car-393073.mp3<>uid://drskhx8r2bfb2::::res://audio/dragon-studio-car-honk-386166.mp3
 game.gd::GDScript::2080263026981193462::1789763534::0::1::::<>Node2D<><>0<>0<><>::
-game.tscn::PackedScene::4180445188696746830::1789765654::0::1::::<><><>0<>0<><>::uid://4vxvmd16aeo1::::res://scenes/game.gd<>uid://doghmovcgeltw::::res://graphics/map.png<>uid://bjy1c24lq0gf7::::res://scenes/player.tscn<>uid://cu1ub4yfh0lbc::::res://scenes/Tree.tscn<>uid://c74s4fvhlodb5::::res://scenes/box.tscn<>uid://cxutqp0hti8vw::::res://graphics/objects/bench.png<>uid://beho7qo80tneo::::res://graphics/objects/bin.png<>uid://c5iy3tuxd0vaw::::res://graphics/objects/barrier.png<>uid://b778fphjcav0::::res://graphics/objects/light.png<>uid://oqgtp468wc6x::::res://graphics/objects/sign.png<>uid://cfe22lwgaf1k2::::res://graphics/objects/traffic.png<>uid://y78osdw0bolc::::res://graphics/objects/box1.png<>uid://cv8cli0ov53f1::::res://graphics/objects/box2.png<>uid://cuqeolw7yvunc::::res://graphics/objects/box3.png<>uid://b8fq8sgkmu4dx::::res://graphics/objects/green car.png<>uid://cj7w1su4cenob::::res://audio/jaywalkgameOST.mp3<>uid://hqpa84d2dqvp::::res://fonts/Better VCR 9.0.1.ttf<>uid://bboddfuu7f2xb::::res://scenes/label_2.gd
+game.tscn::PackedScene::4180445188696746830::1789767023::0::1::::<><><>0<>0<><>::uid://4vxvmd16aeo1::::res://scenes/game.gd<>uid://doghmovcgeltw::::res://graphics/map.png<>uid://bjy1c24lq0gf7::::res://scenes/player.tscn<>uid://cu1ub4yfh0lbc::::res://scenes/Tree.tscn<>uid://c74s4fvhlodb5::::res://scenes/box.tscn<>uid://cxutqp0hti8vw::::res://graphics/objects/bench.png<>uid://beho7qo80tneo::::res://graphics/objects/bin.png<>uid://c5iy3tuxd0vaw::::res://graphics/objects/barrier.png<>uid://b778fphjcav0::::res://graphics/objects/light.png<>uid://oqgtp468wc6x::::res://graphics/objects/sign.png<>uid://cfe22lwgaf1k2::::res://graphics/objects/traffic.png<>uid://y78osdw0bolc::::res://graphics/objects/box1.png<>uid://cv8cli0ov53f1::::res://graphics/objects/box2.png<>uid://cuqeolw7yvunc::::res://graphics/objects/box3.png<>uid://b8fq8sgkmu4dx::::res://graphics/objects/green car.png<>uid://cj7w1su4cenob::::res://audio/jaywalkgameOST.mp3<>uid://hqpa84d2dqvp::::res://fonts/Better VCR 9.0.1.ttf<>uid://bboddfuu7f2xb::::res://scenes/label_2.gd
 global.gd::GDScript::596568463763634575::1789386680::0::1::::<>Node<><>0<>0<><>::
 global.tscn::PackedScene::6299617302789055740::1788615118::0::1::::<><><>0<>0<><>::uid://iq8npekvmc52::::res://scenes/global.gd
 label_2.gd::GDScript::2485698618712523171::1789586302::0::1::::<>Label<><>0<>0<><>::
