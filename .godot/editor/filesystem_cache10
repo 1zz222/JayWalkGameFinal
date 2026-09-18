@@ -1,5 +1,5 @@
 63f7b34db8d8cdea90c76aacccf841ec
-::res://::1789772440
+::res://::1789773350
 asset sources.txt::TextFile::-1::1789766871::0::1::::<><><>0<>0<><>::
 export_presets.cfg::TextFile::-1::1789772171::0::1::::<><><>0<>0<><>::
 icon.svg::CompressedTexture2D::5991746675164270125::1788615118::1789382890::1::::<><><>0<>0<>b524d7562d655860d6e95c77f9f4f098<>res://.godot/imported/icon.svg-218a8f2b3041327d8a5756f3a245f83b.ctex::
@@ -19,7 +19,8 @@ index.png::CompressedTexture2D::239628558690118602::1789772171::1789591453::1:::
 Better VCR 9.0.1.ttf::FontFile::525264482665087361::1788615118::1789382890::1::::<><><>0<>0<>8d43a50de6a81ca6d2e0f8885d97867a<>res://.godot/imported/Better VCR 9.0.1.ttf-0b419d366d973ba1e1c2e6cc67cd81b7.fontdata::
 Crackman.otf::FontFile::8409775716835545339::1788615118::1789382889::1::::<><><>0<>0<>f2dd4031c9271265ef834194efd2619e<>res://.godot/imported/Crackman.otf-07c10da7ed8c2bafac2e3556ecebe10c.fontdata::
 Pixelout Personal Use Only.ttf::FontFile::8579063965188338490::1705929405::1789421714::1::::<><><>0<>0<>54f39d1c9804b60c06c87ea65dafe714<>res://.godot/imported/Pixelout Personal Use Only.ttf-5d74747d771ee6c0e25e31a8ee2ec18f.fontdata::
-::res://graphics/::1789765767
+::res://graphics/::1789773456
+loadingscreen.png::CompressedTexture2D::4773491323238768288::1789773447::1789773459::1::::<><><>0<>0<>cae89b8a73c84fdd66a60fb8443a399b<>res://.godot/imported/loadingscreen.png-a7e48b7c542f0e10c675c69cde2f4af0.ctex::
 mainmenu.png::CompressedTexture2D::1475721183218786826::1789765274::1789765277::1::::<><><>0<>0<>619bf7c100ee5e03c275693d6c7c8928<>res://.godot/imported/mainmenu.png-4e68d1508b31331b13cdf0cc9beeec24.ctex::
 map.png::CompressedTexture2D::8154739344879193416::1789424362::1789424363::1::::<><><>0<>0<>219b8eea25924c4b39ef0368583c17ae<>res://.godot/imported/map.png-4c90a2691f1826b62871a53c820579c2.ctex::
 ::res://graphics/cars/::1789765767
@@ -50,24 +51,24 @@ tree potted.png::CompressedTexture2D::3389544860567921485::1789418006::178941985
 ::res://graphics/player/::1789765767
 player_simple.png::CompressedTexture2D::3101742799475853270::1789417056::1789417059::1::::<><><>0<>0<>1c5e0eae2902f400d93138ed015c3d2b<>res://.godot/imported/player_simple.png-da0d067e94fb2205dce5f6ce7ba473b7.ctex::
 player_tileset.png::CompressedTexture2D::6843235375669234817::1789417048::1789417059::1::::<><><>0<>0<>21c29d67251e95d2bb7dfe9729d2bb88<>res://.godot/imported/player_tileset.png-4ca3aae43be08322f35644f77e38bfeb.ctex::
-::res://scenes/::1789771657
+::res://scenes/::1789773039
 box.tscn::PackedScene::7079896307954955148::1788615118::0::1::::<><><>0<>0<><>::uid://y78osdw0bolc::::res://graphics/objects/box1.png
 car.gd::GDScript::5046749174891820167::1789408245::0::1::::<>Area2D<><>0<>0<><>::
 Car.tscn::PackedScene::8585008359859541334::1789591233::0::1::::<><><>0<>0<><>::uid://ded8huv3lr1a7::::res://graphics/cars/yellow.png<>uid://cd5xhsevs1vit::::res://scenes/car.gd<>uid://bltpvqao25x1o::::res://audio/tanweraman-car-pass-by-337871.mp3<>uid://ltov35wcmnrq::::res://audio/km007-car-pass-by-9111.mp3<>uid://h5b6brejantc::::res://audio/spinopel-passing-car-393073.mp3<>uid://drskhx8r2bfb2::::res://audio/dragon-studio-car-honk-386166.mp3
-game.gd::GDScript::2080263026981193462::1789763534::0::1::::<>Node2D<><>0<>0<><>::
-game.tscn::PackedScene::4180445188696746830::1789767023::0::1::::<><><>0<>0<><>::uid://4vxvmd16aeo1::::res://scenes/game.gd<>uid://doghmovcgeltw::::res://graphics/map.png<>uid://bjy1c24lq0gf7::::res://scenes/player.tscn<>uid://cu1ub4yfh0lbc::::res://scenes/Tree.tscn<>uid://c74s4fvhlodb5::::res://scenes/box.tscn<>uid://cxutqp0hti8vw::::res://graphics/objects/bench.png<>uid://beho7qo80tneo::::res://graphics/objects/bin.png<>uid://c5iy3tuxd0vaw::::res://graphics/objects/barrier.png<>uid://b778fphjcav0::::res://graphics/objects/light.png<>uid://oqgtp468wc6x::::res://graphics/objects/sign.png<>uid://cfe22lwgaf1k2::::res://graphics/objects/traffic.png<>uid://y78osdw0bolc::::res://graphics/objects/box1.png<>uid://cv8cli0ov53f1::::res://graphics/objects/box2.png<>uid://cuqeolw7yvunc::::res://graphics/objects/box3.png<>uid://b8fq8sgkmu4dx::::res://graphics/objects/green car.png<>uid://cj7w1su4cenob::::res://audio/jaywalkgameOST.mp3<>uid://hqpa84d2dqvp::::res://fonts/Better VCR 9.0.1.ttf<>uid://bboddfuu7f2xb::::res://scenes/label_2.gd
+game.gd::GDScript::2080263026981193462::1789772952::0::1::::<>Node2D<><>0<>0<><>::
+game.tscn::PackedScene::4180445188696746830::1789772936::0::1::::<><><>0<>0<><>::uid://4vxvmd16aeo1::::res://scenes/game.gd<>uid://doghmovcgeltw::::res://graphics/map.png<>uid://bjy1c24lq0gf7::::res://scenes/player.tscn<>uid://cu1ub4yfh0lbc::::res://scenes/Tree.tscn<>uid://c74s4fvhlodb5::::res://scenes/box.tscn<>uid://cxutqp0hti8vw::::res://graphics/objects/bench.png<>uid://beho7qo80tneo::::res://graphics/objects/bin.png<>uid://c5iy3tuxd0vaw::::res://graphics/objects/barrier.png<>uid://b778fphjcav0::::res://graphics/objects/light.png<>uid://oqgtp468wc6x::::res://graphics/objects/sign.png<>uid://cfe22lwgaf1k2::::res://graphics/objects/traffic.png<>uid://y78osdw0bolc::::res://graphics/objects/box1.png<>uid://cv8cli0ov53f1::::res://graphics/objects/box2.png<>uid://cuqeolw7yvunc::::res://graphics/objects/box3.png<>uid://b8fq8sgkmu4dx::::res://graphics/objects/green car.png<>uid://cj7w1su4cenob::::res://audio/jaywalkgameOST.mp3<>uid://hqpa84d2dqvp::::res://fonts/Better VCR 9.0.1.ttf<>uid://bboddfuu7f2xb::::res://scenes/label_2.gd
 global.gd::GDScript::596568463763634575::1789386680::0::1::::<>Node<><>0<>0<><>::
 global.tscn::PackedScene::6299617302789055740::1788615118::0::1::::<><><>0<>0<><>::uid://iq8npekvmc52::::res://scenes/global.gd
 label_2.gd::GDScript::2485698618712523171::1789586302::0::1::::<>Label<><>0<>0<><>::
 main_menu.gd::GDScript::8841347501440532259::1789769837::0::1::::<>Control<><>0<>0<><>::
-main_menu.tscn::PackedScene::6730624925053777921::1789770662::0::1::::<><><>0<>0<><>::uid://va36aull04fu::::res://graphics/mainmenu.png<>uid://duh06vgim15ja::::res://fonts/Pixelout Personal Use Only.ttf<>uid://dx72x4ce7ujkl::::res://scenes/main_menu.gd
+main_menu.tscn::PackedScene::6730624925053777921::1789773039::0::1::::<><><>0<>0<><>::uid://va36aull04fu::::res://graphics/mainmenu.png<>uid://duh06vgim15ja::::res://fonts/Pixelout Personal Use Only.ttf<>uid://dx72x4ce7ujkl::::res://scenes/main_menu.gd
 player.gd::GDScript::3451504414706032622::1789408817::0::1::::<>CharacterBody2D<><>0<>0<><>::
 player.tscn::PackedScene::3069249019384507722::1789401188::0::1::::<><><>0<>0<><>::uid://bpf61kdirs6ek::::res://scenes/player.gd<>uid://c4q6c7mxqh78h::::res://graphics/player/player_tileset.png<>uid://bkgrir378horu::::res://graphics/player/player_simple.png
 SNAP____.TTF::FontFile::6761571405346559923::1789421574::1789421574::1::::<><><>0<>0<>d815b8d2aacc61273f97cd0e3eccd4dc<>res://.godot/imported/SNAP____.TTF-2cfef56ca5f601e45af0bdd896f93424.fontdata::
 STENCIL.TTF::FontFile::4287536212825242569::1789421586::1789421586::1::::<><><>0<>0<>34be725d75251f459a97c59f85aa10c6<>res://.godot/imported/STENCIL.TTF-7934298b73b7b42741462835354270a5.fontdata::
 TCB_____.TTF::FontFile::7784259231821936279::1789421560::1789421561::1::::<><><>0<>0<>7cfc4c7b5f768f94d21cdf3b94eac466<>res://.godot/imported/TCB_____.TTF-afcb1709260b8c88e9103dd7e16785ba.fontdata::
 TCCB____.TTF::FontFile::5442054997590751329::1789421541::1789421542::1::::<><><>0<>0<>b3e5f71afe44ca45761037bfb4f112b7<>res://.godot/imported/TCCB____.TTF-7f65e594a7d04958806a0a8c9ef21460.fontdata::
-title.gd::GDScript::4683199765094071178::1789386680::0::1::::<>Control<><>0<>0<><>::
-Title.tscn::PackedScene::203547083042396283::1789771657::0::1::::<><><>0<>0<><>::uid://b7ytu68u08vc1::::res://scenes/title.gd<>uid://duh06vgim15ja::::res://fonts/Pixelout Personal Use Only.ttf<>uid://bkgrir378horu::::res://graphics/player/player_simple.png<>uid://hqpa84d2dqvp::::res://fonts/Better VCR 9.0.1.ttf
+title.gd::GDScript::4683199765094071178::1789772932::0::1::::<>Control<><>0<>0<><>::
+Title.tscn::PackedScene::203547083042396283::1789773018::0::1::::<><><>0<>0<><>::uid://b7ytu68u08vc1::::res://scenes/title.gd<>uid://duh06vgim15ja::::res://fonts/Pixelout Personal Use Only.ttf<>uid://bkgrir378horu::::res://graphics/player/player_simple.png<>uid://hqpa84d2dqvp::::res://fonts/Better VCR 9.0.1.ttf
 Tree.gd::GDScript::5490610038435933736::1788615118::0::1::::<>StaticBody2D<><>0<>0<><>::
 Tree.tscn::PackedScene::6231509747891625128::1788615118::0::1::::<><><>0<>0<><>::uid://ckhxssgmyqpdg::::res://scenes/Tree.gd<>uid://d0so81ys3820n::::res://graphics/objects/tree1.png

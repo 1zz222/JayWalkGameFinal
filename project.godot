@@ -14,6 +14,8 @@ config/name="JayWalk"
 run/main_scene="uid://c25mn58t65p3n"
 config/features=PackedStringArray("4.5", "Forward Plus")
 run/max_fps=60
+boot_splash/bg_color=Color(0.49228573, 0.0642083, 0.4686966, 1)
+boot_splash/image="uid://caakx7uwqvits"
 config/icon="res://icon.svg"
 
 [autoload]
