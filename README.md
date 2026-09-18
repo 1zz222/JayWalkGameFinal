@@ -1,2 +1,2 @@
 # JayWalkGameFinal
-https://1zz222.github.io/JayWalkGame/builds/web/
+https://1zz222.github.io/JayWalkGameFinal/builds/web/
